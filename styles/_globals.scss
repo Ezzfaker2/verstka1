@@ -1,0 +1,20 @@
+@use 'helpers/mixins' as helpers;
+@use 'helpers/media' as media;
+
+
+
+
+body {
+  padding: 100px;
+  p {
+
+    @include helpers.fluid-text (48, 16);
+
+
+    width: rem(100);
+
+    @include helpers.mobile {
+      background-color: red;
+    }
+  }
+}
