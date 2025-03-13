@@ -11,9 +11,9 @@ body {
     @include helpers.fluid-text (48, 16);
 
 
-    width: rem(100);
+    //width: rem(100);
 
-    @include helpers.mobile {
+    @include media.mobile {
       background-color: red;
     }
   }
